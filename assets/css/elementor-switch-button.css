@@ -1,0 +1,27 @@
+.esb-wrapper {
+  display: block;
+  max-width: 100%; }
+  .esb-wrapper .esb-controls {
+    display: flex;
+    align-items: stretch;
+    justify-items: center;
+    align-content: center;
+    justify-content: center; }
+    .esb-wrapper .esb-controls label {
+      padding: .7rem 2rem;
+      cursor: pointer;
+      text-transform: uppercase; }
+      .esb-wrapper .esb-controls label:first-child {
+        border-radius: 2rem 0 0 2rem; }
+      .esb-wrapper .esb-controls label:last-child {
+        border-radius: 0 2rem 2rem 0; }
+      .esb-wrapper .esb-controls label input[type="radio"] {
+        display: none; }
+  .esb-wrapper .esb-panels {
+    display: block; }
+    .esb-wrapper .esb-panels .esb-panel {
+      display: none; }
+      .esb-wrapper .esb-panels .esb-panel.active {
+        display: block; }
+
+/*# sourceMappingURL=elementor-switch-button.css.map */
